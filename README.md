@@ -5,3 +5,18 @@ This repository compares the performance of various AI models in solving the "Sp
 For example, if you have a recording of a meeting with multiple participants, Speaker Diarization can automatically separate the audio into segments and label each segment with the corresponding speaker's name or ID. This makes transcripts and analysis of multi-speaker recordings much easier to follow.
 
 The goal is to help users choose the best available Speaker Diarization model for their specific use case and requirements.
+
+## AssemblyAI
+
+AssemblyAI is a cloud-based API that allows you to transcribe audio files. It's a good option for small to medium-sized files.
+
+### Getting Started
+
+https://www.assemblyai.com/app/
+
+- [x] [Transcribe your first audio file](./assemblyai/transcribe_audio.py)
+- [x] [Identify speakers in your audio](./assemblyai/identify_speakers.py)
+- [x] [Identifying highlights in your audio](./assemblyai/identify_highlights.py)
+- [x] [Summarize your audio file with an LLM](./assemblyai/summarize_audio.py)
+- [ ] [Transcribe live audio streams](./assemblyai/transcribe_live.py)
+
