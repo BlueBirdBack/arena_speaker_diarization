@@ -18,5 +18,16 @@ https://www.assemblyai.com/app/
 - [x] [Identify speakers in your audio](./assemblyai/identify_speakers.py)
 - [x] [Identifying highlights in your audio](./assemblyai/identify_highlights.py)
 - [x] [Summarize your audio file with an LLM](./assemblyai/summarize_audio.py)
-- [ ] [Transcribe live audio streams](./assemblyai/transcribe_live.py)
+- [x] [Transcribe live audio streams](./assemblyai/transcribe_live.py)
 
+#### Known Issues
+
+🚨 AssemblyAI's live transcription feature seems glitchy.
+
+I said: "The key differences and improvements between CUDA 11.8 and CUDA 12.1 primarily revolve around compatibility, performance enhancements, and support for new GPU architectures. Here's a detailed comparison based on the provided sources"
+
+But it repeated and jumbled my words.
+
+![](./assets/240501_Cursor.png)
+
+For further information or to share your thoughts, please visit https://twitter.com/BlueBirdBack/status/1785587598293094833.

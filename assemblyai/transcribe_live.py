@@ -41,7 +41,7 @@ def on_data(transcript: aai.RealtimeTranscript):
 
 
 def on_error(error: aai.RealtimeError):
-    "This function is called when the connection has been closed."
+    "This function is called when an error occurs."
 
     print("An error occured:", error)
 
